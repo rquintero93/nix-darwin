@@ -78,6 +78,9 @@
           pkgs.llm
           pkgs.luarocks
           pkgs.tectonic
+          pkgs.mongodb-cli
+          pkgs.mongosh
+          pkgs.python313Packages.jupytext
 
         ];
 
