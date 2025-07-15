@@ -57,10 +57,9 @@
           pkgs.uv
           pkgs.btop
           pkgs.fd
-          pkgs.git-delta
+          pkgs.delta
           pkgs.git-extras
           pkgs.glow
-          pkgs.ipython
           pkgs.starship
           pkgs.yazi
           pkgs.tree-sitter
@@ -68,6 +67,8 @@
           pkgs.bat
           pkgs.gh
           pkgs.lazygit
+          pkgs.lazydocker
+          pkgs.visidata
 
         ];
 
