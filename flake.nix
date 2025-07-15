@@ -33,8 +33,15 @@
           home = "/Users/ricardoquintero";
       };
 
+      system.primaryUser = "ricardoquintero";
       # Create /etc/zshrc that loads the nix-darwin environment.
       programs.zsh.enable = true;
+
+      # services.sketchybar.enable = true;
+      # services.sketchybar.config = "/Users/ricardoquintero/.config/sketchybar/sketchybarrc";
+      # services.jankyborders.enable = true;
+      # services.jankyborders.active_color = "0xFF89B4FA";
+      # services.jankyborders.background_color = "0xFF45475A";
 
       # List packages installed in system profile. To search by name, run:
       # $ nix-env -qaP | grep wget
@@ -81,6 +88,7 @@
           pkgs.mongodb-cli
           pkgs.mongosh
           pkgs.python313Packages.jupytext
+          pkgs.age
 
         ];
 
