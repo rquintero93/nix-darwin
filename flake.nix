@@ -42,7 +42,10 @@
           pkgs.git
           pkgs.wget
           pkgs.curl
+          pkgs.awscli
           pkgs.zsh
+          pkgs.cmake
+          pkgs.zip
           pkgs.antidote
           pkgs.atuin
           pkgs.fastfetch
@@ -77,14 +80,20 @@
           pkgs.rbenv
           pkgs.imagemagick
           pkgs.llm
+          pkgs.lua
           pkgs.luarocks
           pkgs.tectonic
           pkgs.mongodb-cli
           pkgs.mongosh
-          pkgs.python313Packages.jupytext
           pkgs.age
           pkgs.sqlite-utils
           pkgs.gemini-cli
+          pkgs.python313Packages.jupytext
+          pkgs.python313Packages.ipython
+          pkgs.python313Packages.pip
+          pkgs.google-cloud-sdk
+          pkgs.rbenv
+          pkgs.openssl_3
 
         ];
 
