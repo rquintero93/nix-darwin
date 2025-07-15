@@ -69,6 +69,7 @@
           pkgs.lazygit
           pkgs.lazydocker
           pkgs.visidata
+          pkgs.awscli
 
         ];
 
