@@ -70,6 +70,7 @@
           pkgs.lazydocker
           pkgs.visidata
           pkgs.awscli
+          pkgs.ffmpeg
 
         ];
 
