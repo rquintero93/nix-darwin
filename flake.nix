@@ -45,6 +45,16 @@
           pkgs.curl
           pkgs.zsh
           pkgs.fastfetch
+          pkgs.sesh
+          pkgs.tmux
+          pkgs.zoxide
+          pkgs.fzf
+          pkgs.ripgrep
+          pkgs.eza
+          pkgs.neovim
+          pkgs.nodejs
+          pkgs.python3
+
         ];
 
     };
