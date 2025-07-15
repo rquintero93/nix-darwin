@@ -39,6 +39,11 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [ pkgs.vim
+          pkgs.git
+          pkgs.wget
+          pkgs.curl
+          pkgs.zsh
+          pkgs.fastfetch
         ];
 
     };
