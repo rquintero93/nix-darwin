@@ -13,9 +13,8 @@
       # Necessary for using flakes on this system.
       nix.settings.experimental-features = "nix-command flakes";
       nix.enable = false;
-
-      # Enable alternative shell support in nix-darwin.
-      # programs.fish.enable = true;
+      # Allow unfree packages
+      nixpkgs.config.allowUnfree = true;
 
       # Set Git commit hash for darwin-version.
       system.configurationRevision = self.rev or self.dirtyRev or null;
@@ -44,6 +43,7 @@
           pkgs.wget
           pkgs.curl
           pkgs.zsh
+          pkgs.antidote
           pkgs.fastfetch
           pkgs.sesh
           pkgs.tmux
