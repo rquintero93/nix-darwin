@@ -44,6 +44,7 @@
           pkgs.curl
           pkgs.zsh
           pkgs.antidote
+          pkgs.atuin
           pkgs.fastfetch
           pkgs.sesh
           pkgs.tmux
