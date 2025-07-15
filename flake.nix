@@ -71,6 +71,13 @@
           pkgs.visidata
           pkgs.awscli
           pkgs.ffmpeg
+          pkgs.navi
+          pkgs.ollama
+          pkgs.rbenv
+          pkgs.imagemagick
+          pkgs.llm
+          pkgs.luarocks
+          pkgs.tectonic
 
         ];
 
