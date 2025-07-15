@@ -83,6 +83,8 @@
           pkgs.mongosh
           pkgs.python313Packages.jupytext
           pkgs.age
+          pkgs.aerospace
+          pkgs.sqlite-utils
 
         ];
 
